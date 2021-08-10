@@ -1,9 +1,9 @@
-import EarthImg from "../../public/assets/img/earth.jpeg";
-import JupiterImg from "../../public/assets/img/jupiter.jpeg";
-import MarsImg from "../../public/assets/img/mars.jpeg";
-import MercuryImg from "../../public/assets/img/mercury.jpeg";
-import SaturnImg from "../../public/assets/img/saturn.jpeg";
-import VenusImg from "../../public/assets/img/venus.jpeg";
+import EarthImg from "../assets/img/earth.jpeg";
+import JupiterImg from "../assets/img/jupiter.jpeg";
+import MarsImg from "../assets/img/mars.jpeg";
+import MercuryImg from "../assets/img/mercury.jpeg";
+import SaturnImg from "../assets/img/saturn.jpeg";
+import VenusImg from "../assets/img/venus.jpeg";
 
 const images = [
   {
