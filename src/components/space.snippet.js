@@ -1,15 +1,16 @@
 import React from "react";
+import { imageService } from "../service/image.service";
 
 export default function SpaceSnippet({ name }) {
   return (
-    <div class="grid grid-cols-2 h-32 border border-gray-200 my-4">
-      <div class="relative">
+    <div className="grid grid-cols-2 h-32 border border-gray-200 my-4">
+      <div className="relative">
         <img
-          class="absolute top-0 left-0 w-full h-32 object-cover"
-          src={`img/${name.toLowerCase()}.jpeg`}
+          className="absolute top-0 left-0 w-full h-32 object-cover"
+          src={imageService(name)}
         />
       </div>
-      <p class="text-3xl font-bold text-left p-10">{name}</p>
+      <p className="text-3xl font-bold text-left p-10">{name}</p>
     </div>
   );
 }
