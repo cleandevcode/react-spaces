@@ -7,26 +7,28 @@ import VenusImg from "../assets/img/venus.jpeg";
 
 const images = [
   {
+    id: 0,
     name: "Earth",
     value: EarthImg,
   },
   {
+    id: 1,
     name: "Jupiter",
     value: JupiterImg,
   },
   {
+    id: 2,
     name: "Mars",
     value: MarsImg,
   },
+  { id: 3, name: "Mercury", value: MercuryImg },
   {
-    name: "Mercury",
-    value: MercuryImg,
-  },
-  {
+    id: 4,
     name: "Saturn",
     value: SaturnImg,
   },
   {
+    id: 5,
     name: "Venus",
     value: VenusImg,
   },
@@ -42,6 +44,5 @@ export function imageService(name) {
     ele.name.toLowerCase().includes(_name)
   );
 
-  console.log(">>>>>>", _result);
   return _result?.[0]?.value;
 }

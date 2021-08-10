@@ -1,5 +1,5 @@
 const Input = (props) => {
-  const { id, placeholder = "", label = "", type = "text", ...rest } = props;
+  const { id, placeholder = "", type = "text", ...rest } = props;
   return (
     <>
       <input

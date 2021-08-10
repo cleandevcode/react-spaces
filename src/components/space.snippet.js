@@ -8,6 +8,7 @@ export default function SpaceSnippet({ name }) {
         <img
           className="absolute top-0 left-0 w-full h-32 object-cover"
           src={imageService(name)}
+          alt={name}
         />
       </div>
       <p className="text-3xl font-bold text-left p-10">{name}</p>
